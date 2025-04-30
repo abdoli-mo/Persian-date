@@ -1,0 +1,27 @@
+### 2. `package.json`
+
+```json
+{
+  "name": "persian-date",
+  "version": "1.0.0",
+  "description": "A library for Persian (Jalali) date in JavaScript",
+  "main": "dist/persian-date.min.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "mocha"
+  },
+  "keywords": [
+    "persian",
+    "jalaali",
+    "date",
+    "calendar"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.0.0",
+    "webpack-cli": "^3.0.0",
+    "uglifyjs-webpack-plugin": "^2.0.0",
+    "mocha": "^6.0.0"
+  }
+}
